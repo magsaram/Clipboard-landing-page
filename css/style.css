@@ -1,0 +1,172 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+:root {
+  --green: hsl(171, 66%, 44%);
+  --blue: hsl(233, 100%, 69%);
+  --darkGrayBlue: hsl(210, 10%, 33%);
+  --grayBlue: hsl(201, 11%, 66%);
+}
+body {
+  width: 100%;
+  font-family: "Bai Jamjuree";
+  color: var(--darkGrayBlue);
+}
+header {
+  width: 100%;
+  margin: 0 auto;
+  background-image: url(../images/bg-header-mobile.png);
+  background-repeat: no-repeat;
+  text-align: center;
+  overflow: hidden;
+}
+header img {
+  width: 125px;
+  height: 125px;
+  margin: 123px auto 64px;
+}
+h1 {
+  margin: 0 30px 16px;
+  font-size: 32px;
+  line-height: 100%;
+}
+header p {
+  margin: 0 30px 48px;
+  font-size: 16px;
+  line-height: 130%;
+  color: var(--grayBlue);
+}
+.download {
+  display: flex;
+  flex-direction: column;
+  margin: 0 auto;
+}
+.download a {
+  margin: 0 auto;
+  width: 100%;
+  max-width: 311px;
+  height: 56px;
+  font-size: 18px;
+  line-height: 56px;
+  border-radius: 28px;
+  font-size: 18px;
+  font-weight: 600;
+  text-decoration: none;
+  color: white;
+}
+.download a:first-child {
+  margin-bottom: 24px;
+  background-color: var(--green);
+  box-shadow: 0 5px 0 0 #1f9e8b, 0 10px 20px 0 #1f9e8b70;
+}
+.download a:last-child {
+  margin-bottom: 160px;
+  background-color: var(--blue);
+  box-shadow: 0 5px 0 0 #5262d8, 0 10px 20px 0 #5262d86c;
+}
+main {
+  margin: 0 auto;
+  width: 80%;
+  text-align: center;
+}
+.first h2,
+.third h2,
+.fourth h2 {
+  margin-bottom: 16px;
+  font-size: 28px;
+  line-height: 100%;
+}
+.first p,
+.third p,
+.fourth p {
+  margin-bottom: 65px;
+  font-size: 16px;
+  line-height: 130%;
+  color: var(--grayBlue);
+}
+.computer img {
+  margin-bottom: 56px;
+  width: 100%;
+}
+.second-text h3 {
+  margin-bottom: 10px;
+  font-size: 24px;
+  line-height: 100%;
+}
+.second-text p {
+  margin-bottom: 48px;
+  font-size: 16px;
+  line-height: 130%;
+  color: var(--grayBlue);
+}
+.third img {
+  margin-bottom: 130px;
+  width: 100%;
+}
+.options {
+  display: flex;
+  flex-direction: column;
+}
+.options div h3 {
+  margin: 40px auto 18px;
+  font-size: 24px;
+  line-height: 100%;
+}
+.options div p {
+  margin-bottom: 56px;
+  font-size: 16px;
+  line-height: 130%;
+  color: var(--grayBlue);
+}
+.logos {
+  margin: 70px auto 170px;
+  width: 50%;
+  display: flex;
+  flex-direction: column;
+}
+.logos img {
+  margin-bottom: 59px;
+}
+footer {
+  width: 100%;
+  background-color: #f5f6f7;
+  text-align: center;
+}
+footer img {
+  margin: 52px auto 40px;
+  width: 55px;
+  height: 55px;
+}
+footer > div:nth-child(2) {
+  display: flex;
+  flex-direction: column;
+}
+footer > div:nth-child(2) a {
+  margin-bottom: 20px;
+  font-size: 18px;
+  text-decoration: none;
+  color: var(--darkGrayBlue);
+}
+footer > div:first-child a {
+  font-size: 24px;
+  color: var(--darkGrayBlue);
+}
+footer div:nth-child(3) {
+  display: flex;
+  justify-content: space-between;
+  margin: 48px auto 51px;
+  width: 152px;
+}
+footer div:nth-child(3) a {
+  font-size: 24px;
+  text-decoration: none;
+  color: var(--darkGrayBlue);
+}
+.frontend {
+  font-size: 10px;
+}
+.frontend a {
+  text-decoration: none;
+  color: var(--darkGrayBlue);
+}
