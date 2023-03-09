@@ -138,27 +138,27 @@ footer img {
   width: 55px;
   height: 55px;
 }
-footer > div:nth-child(2) {
+.wrap > div:nth-child(2) {
   display: flex;
   flex-direction: column;
 }
-footer > div:nth-child(2) a {
+.wrap > div:nth-child(2) a {
   margin-bottom: 20px;
   font-size: 18px;
   text-decoration: none;
   color: var(--darkGrayBlue);
 }
-footer > div:first-child a {
+.wrap > div:first-child a {
   font-size: 24px;
   color: var(--darkGrayBlue);
 }
-footer div:nth-child(3) {
+.wrap div:nth-child(3) {
   display: flex;
   justify-content: space-between;
   margin: 48px auto 51px;
   width: 152px;
 }
-footer div:nth-child(3) a {
+.wrap div:nth-child(3) a {
   font-size: 24px;
   text-decoration: none;
   color: var(--darkGrayBlue);
@@ -169,4 +169,182 @@ footer div:nth-child(3) a {
 .frontend a {
   text-decoration: none;
   color: var(--darkGrayBlue);
+}
+@media (min-width: 1024px) {
+  header {
+    background-image: url(../images/bg-header-desktop.png);
+    background-size: contain;
+  }
+  header img {
+    margin: 128px auto 56px;
+  }
+  h1 {
+    font-size: 46px;
+  }
+  header p {
+    margin: 0 auto 48px;
+    width: 730px;
+    font-size: 20px;
+    line-height: 120%;
+  }
+  .download {
+    width: 490px;
+    flex-direction: row;
+    justify-content: space-between;
+    margin-bottom: 150px;
+  }
+  .download a {
+    margin: 0 auto;
+    max-width: 227px;
+  }
+  .download a:first-child {
+    margin-bottom: 0;
+  }
+  .download a:first-child:hover {
+    background-color: #5dccbb;
+  }
+  .download a:last-child {
+    margin-bottom: 0;
+  }
+  .download a:last-child:hover {
+    background-color: #8896fd;
+  }
+  main {
+    margin: 0 auto;
+    width: 100%;
+    text-align: center;
+  }
+  .first h2,
+  .third h2,
+  .fourth h2 {
+    margin-bottom: 19px;
+    font-size: 36px;
+  }
+  .first p,
+  .third p,
+  .fourth p {
+    margin: 0 auto;
+    width: 730px;
+    margin-bottom: 80px;
+    font-size: 18px;
+    line-height: 30px;
+    color: var(--grayBlue);
+  }
+  .second {
+    margin-bottom: 150px;
+    display: flex;
+    align-items: center;
+    height: 572px;
+    transform: translateX(-5%);
+    text-align: left;
+  }
+  .computer img {
+    margin-bottom: 0px;
+    width: 752px;
+    height: 572px;
+  }
+  .second-text {
+    margin-left: 7%;
+    margin-right: 15%;
+  }
+  .second-text h3 {
+    margin-bottom: 8px;
+  }
+  .second-text p {
+    margin-bottom: 110px;
+  }
+  .third img {
+    margin-bottom: 100px;
+    width: 60%;
+  }
+  .options {
+    flex-direction: row;
+    justify-content: space-between;
+    width: 80%;
+    margin: 0 auto;
+  }
+  .options div {
+    flex-basis: 350px;
+  }
+  .options div h3 {
+    margin: 40px auto 16px;
+  }
+  .options div p {
+    margin-bottom: 150px;
+  }
+  .logos {
+    margin: 0px auto 150px;
+    width: 80%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+  }
+  .logos img {
+    width: auto;
+    height: 100%;
+    margin-bottom: 0px;
+  }
+  footer {
+    box-sizing: border-box;
+    height: 150px;
+    text-align: left;
+  }
+  .wrap {
+    width: 80%;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: space-between;
+    margin: 0 auto;
+  }
+  .wrap img {
+    margin: 0 135px 0 0;
+    width: 55px;
+    height: 55px;
+  }
+  .wrap div:nth-child(2) {
+    flex-basis: 50%;
+    height: 100px;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    gap: 16px;
+    margin-top: 20px;
+  }
+  .wrap div:nth-child(2) a {
+    margin-left: 100px;
+    margin-bottom: 0;
+    font-size: 18px;
+    text-decoration: none;
+    color: var(--darkGrayBlue);
+  }
+  .wrap div:first-child a {
+    font-size: 24px;
+    color: var(--darkGrayBlue);
+  }
+  .wrap div:nth-child(3) {
+    display: flex;
+    justify-content: space-between;
+    margin: 0;
+    width: 152px;
+  }
+  .wrap div:nth-child(3) a {
+    font-size: 24px;
+    text-decoration: none;
+    color: var(--darkGrayBlue);
+  }
+  .frontend {
+    flex-basis: 100%;
+    font-size: 10px;
+    text-align: center;
+  }
+  .frontend a {
+    text-decoration: none;
+    color: var(--darkGrayBlue);
+  }
+  .wrap div:nth-child(2) a:hover,
+  .wrap div:nth-child(3) a:hover {
+    color: var(--green);
+  }
 }
